@@ -51,8 +51,8 @@ export default function AuthScreen() {
             });
 
             if (auth.success) {
-                setError('Login Successful');
-                // router.replace("/home");
+                // setError('Login Successful');
+                router.replace("/home");
             } else {
                 setError("Authentication failed. Please try again.");
             }
